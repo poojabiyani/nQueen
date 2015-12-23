@@ -13,6 +13,7 @@ public class myUI {
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
+				System.out.print("git_update");
 				try {
 					myUI window = new myUI();
 					window.frame.setVisible(true);
